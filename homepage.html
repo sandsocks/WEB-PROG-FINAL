@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--title and icon-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Primerose Kitchen</title>
 	<link rel="icon" type="icon" href="assets/icon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="styling.css">
+	<link rel="stylesheet" href="homepage-style.css">
 </head>
 <body>
-	<div class="container">
-		<nav>
-			<img src="assets/prk-logo-2022.png" class="logo">
-			<ul>
-				<a href="#about">About Us</a> 
-				<a href="#shop">Shop</a>
-				<a href="#contact">Contact Us</a>
-			</ul>
-		<!--<button class="btn"><img src="assets/icon.png" class="icon"></button>-->
-		</nav>
+	<div class="header">
+		<img src="assets/prk-logo-2022.png" class="logo">
+		<div class="header-right">
+		  <a href="#about">About Us</a>
+		  <a href="#contact">Shop</a>
+		  <a href="#contact">Contact Us</a>
+		  <a href="#register" class="log-in">Register</a>
+		</div>
 	</div>
-	<div class="about"></div>
-	<div class="shop"></div>
-	<div class="contact"></div>
+
+	<div class="about">
+		<h2>About Us</h2>
+		<p>Prime-Rose Kitchen is a food distributor based in La Trinidad, Benguet.
+			They have been operating since 2011, starting with their bestsellers, Crunchy
+			Garlic and Oriental Dressing. Now over 20 years old, Prime-Rose Kitchen
+			continues providing its customers with locally-made specialties that
+			complement people’s everyday meals.</p>
+	</div>
+
+	<div class="products">
+		<h2>Our Products</h2>
+		<button class="shop">More...</button>
+	</div>
+
+	<div class="contact">
+		<h2>Contact Us</h2>
+		<a href="https://www.facebook.com/primerosekitchen">Facebook</a>
+		<p>Email: primerosekitchen@gmail.com</p>
+		<p>Phone: 0939 914 5200</p>
+	</div>
 </body>
 </html>
