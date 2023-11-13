@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Kape Para Sayo!</title>
+        <link rel="icon" type="image/x-icon" href="assets/icon_01.png">    
+
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/scripts.js"></script>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-custom navbar-expand-lg navbar fixed-top shadow">
+          <div class="container-fluid d-flex justify-content-between">
+            <div class="col-lg-2 col d-flex justify-content-between justify-content-lg-start align-items-center">
+              <a class="navbar-brand" href="#home">
+                <img class="rounded-lg-3 d-block"  style="height: 64px;" src="assets/icon_01.png" alt="">
+              </a>
+              <a class="navbar-brand" href="#home">Kape Para Sayo!</a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+
+            <div class="col-8 collapse navbar-collapse justify-content-center text-center" id="navbarCollapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-2 collapse navbar-collapse text-center justify-content-end" id="navbarCollapse">
+              <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='login.html'">Login</button>
+            </div>
+          </div>  
+        </nav>
+        
+        <main class="container">    
+            <div id="home" class="container d-flex flex-column min-vh-100 justify-content-md-start align-items-center">
+                <div class="row p-0 align-items-center rounded-3 shadow-lg w-75 my-auto hero">
+                  <div class="col-lg-7 p-3 p-lg-5">
+                    <h1 class="display-4 fw-bold lh-1">Kape Para Sayo!</h1>
+                  <p class="lead display-5 pt-lg-3">Your fresh cup of coffee, delivered.</p>
+                </div>
+                  <div class="col-lg-5 p-0 -lg rounded-3">
+                      <img class="rounded-lg-3 home-img d-block" src="assets/coffee_01.jpg" alt="">
+                  </div>
+                </div>
+            </div>
+    
+            <div id="about" class="container d-flex flex-column min-vh-100 justify-content-md-start align-items-center">
+              <div class="row p-0 align-items-center rounded-3 shadow-lg w-75 my-auto hero">
+                <div class="col-lg-7 p-3 p-lg-5 ">
+                    <h1 class="display-4 fw-bold lh-1">Who are we?</h1>
+                    <p class="lead pt-lg-3">Kape Para Sayo is a coffee subscription business that sources locally roasted coffee beans from the Philippines. We believe that everyone deserves to enjoy a cup of fresh, flavorful coffee, and we are committed to providing our customers with the best possible coffee experience.</p>
+                  </div>
+                  <div class="col-lg-5 p-0 shadow-lg rounded-3">
+                      <img class="rounded-lg-3 home-img" src="assets/roaster_01.jpg" alt="">
+                  </div>
+                </div>
+            </div>
+
+            <div id="products" class="container d-flex flex-column min-vh-100 justify-content-md-start align-items-center">
+              <div class="row p-0 align-items-center rounded-3 shadow-lg w-75 my-auto hero">
+                <div class="col-lg-7 p-3 p-lg-5">
+                    <h1 class="display-4 fw-bold lh-1">Our Selection</h1>
+                    <p class="lead pt-lg-3">We work with a variety of local coffee roasters to bring you a wide selection of single origin coffees and blends. We also offer a variety of subscription options so that you can choose the frequency and size of your deliveries to fit your needs.</p>
+                    
+                    <button type="button" class="btn btn-primary btn-lg px-4 mt-4 me-md-2 fw-bold">Buy Now!</button>
+                  </div>
+                  <div class="col-lg-5 p-0 shadow-lg rounded-3">
+                      <img class="rounded-lg-3 home-img" src="assets/beans_01.jpg" alt="">
+                  </div>
+                </div>
+            </div>
+    
+            <div id="services" class="container d-flex flex-column min-vh-100 justify-content-md-start align-items-center">
+              <div class="row p-0 align-items-center rounded-3 shadow-lg w-75 my-auto hero">
+                <div class="col-lg-7 p-3 p-lg-5">
+                    <h1 class="display-4 fw-bold lh-1">Our Services</h1>
+                    <p class="lead pt-lg-3">We work with a variety of local coffee roasters to bring you a wide selection of single origin coffees and blends. We also offer a variety of subscription options so that you can choose the frequency and size of your deliveries to fit your needs.</p>
+                    
+                    <button type="button" class="btn btn-primary btn-lg px-4 mt-4 me-md-2 fw-bold">Subscribe Now!</button>
+                  </div>
+                  <div class="col-lg-5 p-0 shadow-lg rounded-3">
+                      <img class="rounded-lg-3 home-img" src="assets/farmer_01.jpg" alt="">
+                  </div>
+                </div>
+            </div>
+    
+            <div id="contact" class="container d-flex flex-column min-vh-100 justify-content-md-start align-items-center">
+              <div class="row p-0 align-items-center rounded-3 shadow-lg w-75 my-auto hero">
+                <div class="col-lg-7 p-3 p-lg-5">
+                    <h1 class="display-4 fw-bold lh-1">Contact Us</h1>
+                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                      <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                      <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                      <img class="rounded-lg-3" src="bootstrap-docs.png" alt="">
+                  </div>
+                </div>
+            </div>
+        </main>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    background-color: #181818 !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.container {
+    scroll-snap-align: start;
+}
+
+.home-img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .3rem;
+}
+
+.hero {
+    background-color: #FFFFFF;
+}
+
+.navbar-custom {
+    background-color: #FFFFFF;
+}

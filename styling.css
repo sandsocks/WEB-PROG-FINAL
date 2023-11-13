@@ -23,14 +23,20 @@ nav{
 }
 
 nav ul{
-	list-style: none;
 	width: 100%;
 	text-align:right;
-	padding-right: 60px;
+	padding-right: 100px;
+	font-size: 34px;
+	
 }
 
 .logo {
-    width: 500px;
-    height: auto;
+    width: auto;
+    height: 100px;
 	cursor: pointer;
 }
+
+/*.icon{
+	width: 50px;
+	height: auto;
+}*/
